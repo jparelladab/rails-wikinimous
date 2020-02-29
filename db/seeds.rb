@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+require 'faker'
+
+Article.create(title: Faker::BossaNova.song, content: Faker::Hipster.paragraphs)
+Article.create(title: Faker::BossaNova.song, content: Faker::Hipster.paragraphs)
+Article.create(title: Faker::BossaNova.song, content: Faker::Hipster.paragraphs)
+Article.create(title: Faker::BossaNova.song, content: Faker::Hipster.paragraphs)
+Article.create(title: Faker::BossaNova.song, content: Faker::Hipster.paragraphs)
+Article.create(title: Faker::BossaNova.song, content: Faker::Hipster.paragraphs)
